@@ -9,5 +9,4 @@ const tryCatch =
 			return next(error);
 		}
 	};
-
 export default tryCatch;
