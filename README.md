@@ -30,10 +30,10 @@
       `npx prisma db seed`
  6. Acces to endpoints using postman 
    To access authentication :
-   - Open Postman and create a new request.
-   - Enter your server's URL.
-   - Under the "Authorization" tab, select "Basic Auth" from the Type dropdown.
-   - Enter the AUTH_USERNAME and AUTH_PASSWORD you specified in your .env file.
-   - Send the request.
-   - If the credentials are correct, Postman will show the server's response. Otherwise, it will show a 401 Unauthorized error.
-       
+      - Open Postman and create a new request.
+      - Enter your server's URL.
+      - Under the "Authorization" tab, select "Basic Auth" from the Type dropdown.
+      - Enter the AUTH_USERNAME and AUTH_PASSWORD you specified in your .env file.
+      - Send the request.
+      - If the credentials are correct, Postman will show the server's response. Otherwise, it will show a 401 Unauthorized error.
+          
