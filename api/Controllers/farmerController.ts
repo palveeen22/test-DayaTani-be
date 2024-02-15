@@ -8,7 +8,7 @@ class FarmerController {
 
         // Input validation
         if (!name || !idCardNumber || !birthDate) {
-            throw new AppError(201, "Missing required fields",400);
+			throw new AppError(201, "Missing required fields", 400);			
         }
 
         // Attempt to create the farmer
