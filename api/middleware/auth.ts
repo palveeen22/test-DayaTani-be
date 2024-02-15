@@ -18,6 +18,7 @@ const getUnauthorizedResponse = (req: basicAuth.IBasicAuthedRequest) => {
     : 'No credentials provided';
 };
 
+
 // Create and export the middleware
 export const authMiddleware = basicAuth({
   authorizer: myAuthorizer,
