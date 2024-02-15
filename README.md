@@ -15,8 +15,7 @@
    </br>
    
  3. Connect your database
-   - postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA
-   </br>
+   `postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA`
     Here's a short explanation of each component:
       - USER: The name of your database user
       - PASSWORD: The password for your database user
