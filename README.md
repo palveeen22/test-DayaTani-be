@@ -25,6 +25,16 @@
       - SCHEMA: The name of the schema inside the database
   4. Migrate your data base using :
       `npx prisma migrate dev`
- 4. Seed to your data base  and Install prisma client using :
+ 5. Seed to your data base  and Install prisma client using :
       `npm install @prisma/client`
       `npx prisma db seed`
+ 6. Acces to endpoints using postman :
+   </br>
+   To access authentication :
+   - Open Postman and create a new request.
+   - Enter your server's URL.
+   - Under the "Authorization" tab, select "Basic Auth" from the Type dropdown.
+   - Enter the username and password.
+   - Send the request.
+   - If the credentials are correct, Postman will show the server's response. Otherwise, it will show a 401 Unauthorized error.
+       
