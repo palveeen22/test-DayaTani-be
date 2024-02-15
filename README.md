@@ -28,8 +28,7 @@
  5. Seed to your data base  and Install prisma client using :
       `npm install @prisma/client`
       `npx prisma db seed`
- 6. Acces to endpoints using postman :
-   </br>
+ 6. Acces to endpoints using postman 
    To access authentication :
    - Open Postman and create a new request.
    - Enter your server's URL.
